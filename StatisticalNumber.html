@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>统计概览</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="frame/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="frame/jquery/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="frame/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/css02.css">
+    <script>
+        $(function(){
+            $(document).ready(function(){
+                $(".dropdown-toggle").mouseover(function(){
+                    $(this).click();
+                });
+                $(".dropdown-toggle").mouseout(function(){
+                    $(this).click();
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container" style="margin-left: -15px;">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="top1">
+                <img src="images/cust1.png" class="float1">
+                <ul class="float1 position1 font1">
+                    <li><a href="#">E-Mail</a></li>
+                    <li><a href="#">Portal</a></li>
+                    <li><a href="#">OA</a></li>
+                    <li><a href="#">捐赠</a></li>
+                    <li class="dropdown" >
+                        <a  id="dropdownMenu1" class="dropdown-toggle" data-toggle="dropdown" href="#">链接
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2 font1" role="menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">我要投稿</a></li>
+                            <li><a href="#">本科生招生</a></li>
+                            <li><a href="#">研究生招生</a></li>
+                            <li><a href="#">复旦学院</a></li>
+                            <li><a href="#">研究生院</a></li>
+                            <li><a href="#">人事招聘</a></li>
+                            <li><a href="#">保卫处</a></li>
+                            <li><a href="#">校医院</a></li>
+                            <li><a href="#">出版社</a></li>
+                            <li><a href="#">校园生活服务</a></li>
+                            <li><a href="#">校园接待中心</a></li>
+                            <li><a href="#">目录</a></li>
+                            <li><a href="#">A—Z</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a  href="#" class="dropdown-toggle" data-toggle="dropdown">应用
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2 font1" role="menu">
+                            <li><a href="#">图片</a></li>
+                            <li><a href="#">视频</a></li>
+                            <li><a href="#">百科</a></li>
+                            <li><a href="#">问答</a></li>
+                            <li><a href="#">索引</a></li>
+                            <li><a href="#">标签</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">English</a></li>
+                    <li><input type="text" required placeholder="搜索网页、新闻等" style="height: 27px"></li>
+                </ul>
+                <img src="images/cust2.png" class="position1">
+            </div>
+            <div class="top2">
+                <ul class="position3 float1">
+                    <li class="dropdown" style="width: 125px;">
+                        <a type="button" class="btn dropdown-toggle" data-toggle="dropdown">复旦概况
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">治理架构</a></li>
+                            <li><a href="#">辉煌校史</a></li>
+                            <li><a href="#">统计概览</a></li>
+                            <li><a href="#">复旦标志</a></li>
+                            <li><a href="#">规章制度</a></li>
+                            <li><a href="#">访问复旦</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" style="width: 125px;">
+                        <a  type="button" class="btn dropdown-toggle" data-toggle="dropdown">人才培养
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">师资队伍</a></li>
+                            <li><a href="#">通识教育</a></li>
+                            <li><a href="#">本科生教育 </a></li>
+                            <li><a href="#">研究生教育</a></li>
+                            <li><a href="#">留学生教育</a></li>
+                            <li><a href="#">继续教育</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" style="width: 125px;">
+                        <a  type="button" class="btn dropdown-toggle" data-toggle="dropdown">科学研究
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">学科建设</a></li>
+                            <li><a href="#">人文与社科</a></li>
+                            <li><a href="#">理学与工程</a></li>
+                            <li><a href="#">医学</a></li>
+                            <li><a href="#">产业化.合作</a></li>
+                            <li><a href="#">学术刊物</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" style="width: 125px;">
+                        <a  type="button" class="btn dropdown-toggle" data-toggle="dropdown">机构设置
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">院系专业</a></li>
+                            <li><a href="#">科研机构</a></li>
+                            <li><a href="#">附属医院</a></li>
+                            <li><a href="#">党政服务</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" style="width: 125px;">
+                        <a type="button" class="btn dropdown-toggle" data-toggle="dropdown">文化生活
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">讲座.论坛</a></li>
+                            <li><a href="#">第二课堂</a></li>
+                            <li><a href="#">书院生活</a></li>
+                            <li><a href="#">校园媒体</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" style="width: 125px;">
+                        <a type="button" class="btn dropdown-toggle" data-toggle="dropdown">公共服务
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu position2" role="menu" style="background: #0E419C;min-width: 100px;">
+                            <li><a href="#">学术服务</a></li>
+                            <li><a href="#">文化服务</a></li>
+                            <li><a href="#">网络服务</a></li>
+                            <li><a href="#">生活服务</a></li>
+                            <li><a href="#">行政管理</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="ma1">
+                <div  class="main1 color1 font1">
+                    <img src="images/cust3.png" class="position5 position6">
+                    <hr color="#E3E3E3" style="margin-top: 13px; width:100%;height: 1px;">
+                    <ul class="position4" >
+                        <li ><a href="cust.html">治 理 架 构</a></li>
+                        <hr color="#E3E3E3" style="margin-top: 13px;width:100%;height:1px;">
+                        <li><a href="SchoolHistory.html">辉 煌 校 史</a></li>
+                        <hr color="#E3E3E3" style="margin-top: 13px;width:100%;height:1px;">
+                        <li style="list-style-type: square"><a href="#">统 计 概 览</a></li>
+                        <hr color="#E3E3E3" style="margin-top: 13px;width:100%;height:1px;">
+                        <li><a href="#">复 旦 标 志</a></li>
+                        <hr color="#E3E3E3" style="margin-top: 13px;width:100%;height:1px;">
+                        <li><a href="#">规 章 制 度</a></li>
+                        <hr color="#E3E3E3" style="margin-top: 13px;width:100%;height:1px;">
+                        <li><a href="#">访 问 复 旦</a></li>
+                    </ul>
+                </div>
+
+                <div class="main1">
+                    <h5 class="position1">相关链接</h5>
+                    <ul style="line-height: 30px;">
+                        <li>
+                            <a href="">复旦大学信息公开网</a></li>
+                        <li>
+                            <a href="">新闻文化网</a></li>
+                        <li>
+                            <a href="">全校信息公开目录</a></li>
+                        <li>
+                            <a href="">校长信箱</a></li>
+                        <li>
+                            <a href="">卿云轩校园接待中心</a></li>
+                        <li>
+                            <a href="">复旦大学办公室</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ma2">
+                <div class="main5">
+                    <table class="table1">
+                        <tbody>
+                        <tr>
+                            <td width="50%">本专科生人数</td>
+                            <td>12881人</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">研究生人数</td>
+                            <td>13929人</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">学位留学生人数</td>
+                            <td>1883人</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">专任教师人数</td>
+                            <td>2575人</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">教职员工人数</td>
+                            <td>6002人</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">高级职称教师人数</td>
+                            <td>1016人</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">中国科学院、工程院院士人数</td>
+                            <td>42人(含双聘)</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">长江学者特聘教授</td>
+                            <td>113人</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">省部级以上重点实验室</td>
+                            <td>48个</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">附属医院</td>
+                            <td>16个</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">校图书馆藏书数</td>
+                            <td>566.99万册</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">校园占地面积</td>
+                            <td>244.99万平方米</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">校舍建筑面积</td>
+                            <td>200.20万平方米</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">本科专业</td>
+                            <td>70个</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">一级学科博士学位授权点</td>
+                            <td>35个</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">一级学科硕士学位授权点</td>
+                            <td>41个</td>
+                        </tr>
+                        <tr >
+                            <td width="50%">博士专业学位授权点</td>
+                            <td>2个</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">硕士专业学位授权点</td>
+                            <td>27个</td>
+                        </tr>
+                        <tr>
+                            <td width="50%">国家重点学科一级学科数</td>
+                            <td>11个</td>
+                        </tr>
+                        <tr class="color2">
+                            <td width="50%">国家重点学科二级学科数</td>
+                            <td>19个</td>
+                        </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+            <div >
+                <div class="main6">
+                    <a href=""><img src="images/Statistical1.JPG"></a>
+                    <h3>站内服务</h3>
+
+                    <div class="main7">
+                        <ul>
+                            <li>
+                                <a href="">复旦大学年报2011</a></li>
+                            <li>
+                                <a href="">复旦大学统计数据</a></li>
+                            <li>
+                                <a href="">全校院系单位一览</a></li>
+                            <li>
+                                <a href="">全校国家重点学科一览</a></li>
+                            <li>
+                                <a href="">本科生专业设置</a></li>
+                            <li>
+                                <a href="">研究生学科、专业目录</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bottom1">
+                <div class="position9">地址：上海市杨浦区邯郸路220号 | 邮编：200433 | 电话：(86)021-65642222</div>
+                <div class="position9">Copyright&copy;2013 复旦大学版权所有     沪ICP备：042465</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

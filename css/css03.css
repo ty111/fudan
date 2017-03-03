@@ -1,0 +1,35 @@
+.Sc-main1{
+    width:66%;
+    margin-left: 31%;
+    margin-top: -910px;
+}
+.Sc-main1 img{
+    width:100%;
+    z-index:2;
+}
+.Sc-main2{
+    width:66%;
+    margin-left: 32%;
+}
+.Sc-main2 p{
+    letter-spacing: 1px;
+    text-indent:24px;
+    color: #3A3A3A;
+    font-weight:100;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.Sc-main2 h5{
+    width:13%;
+    height:24px;
+    background: #0E419C;
+    padding:3px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.Sc-main2 span{
+    color:#ffffff;
+    font-weight: bold;
+    display: block;
+    margin-left: 10px;
+}
